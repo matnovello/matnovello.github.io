@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	background-color: lawngreen !important;
 	line-height: 1;
 }
 
@@ -98,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: white;
+		background-color: lawngreen;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +117,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: ghostwhite;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -197,10 +199,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right,lawngreen, royalblue);
+				background-image: -webkit-linear-gradient(to right,lawngreen, royalblue);
+				background-image: -ms-linear-gradient(to right,lawngreen, royalblue);
+				background-image: linear-gradient(to right,lawngreen, royalblue);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -282,7 +284,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.05);
+		background: lawngreen;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		font-family: "Courier New", monospace;
@@ -307,7 +309,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+		border-bottom: solid 1px lawngreen);
 		margin: 2em 0;
 	}
 
