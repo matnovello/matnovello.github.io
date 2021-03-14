@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body {
 		background: white;
-		background-color: lawngreen;
+		background-color: lx;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: ghostwhite;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Inconsolata', monospace;;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -2537,27 +2537,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: black;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color:black;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: black;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: black;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: black;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: black;
 				}
 
 /* Image */
@@ -3237,31 +3237,31 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: black;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: black;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: black;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: black;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: black;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: black;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #9ba642;
 		}
 
 		.wrapper.fullscreen {
@@ -3371,7 +3371,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: black;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
